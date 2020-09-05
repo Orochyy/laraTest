@@ -115,6 +115,7 @@ class CatalogController extends Controller
 
         $post->name = $request->name;
         $post->description = $request->description;
+        $post->updated_at = now();
 
         $post->save();
 

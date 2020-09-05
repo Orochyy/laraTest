@@ -14,7 +14,7 @@
 
         @if($post->updated_at)
             <p class="updated">
-               Updated at: {{ $post->updated_at->format('d/m/Y') }}
+               Updated at: {{ $post->updated_at->format('d/m/Y H:i') }}
             </p>
         @endif
         <div class="d-inline-flex">
